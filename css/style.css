@@ -782,7 +782,7 @@ a.btn.btn-primary.setting-cookies:hover {
 .panel-default>.panel-heading a {
     display: block;
     padding: 10px 15px;
-    background: var(--main-color);
+    background: var(--primary-color);
     color: #fff;
     border-radius: 10px;
 }
