@@ -329,6 +329,11 @@ a.button_main {
 }
 
 /* associated styling end */
+/* events styling start */
+.events {
+    padding: 60px 0;
+}
+/* events styling start */
 /* privacy styling start */
 .privacy__ {
     position: relative;
