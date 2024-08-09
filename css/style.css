@@ -777,7 +777,7 @@ a.btn.btn-primary.setting-cookies:hover {
 .newsletter-heading h4 {
     font-size: 24px;
     margin: 0 auto 20px;
-    color: var(--main-color);
+    color: #000;
     max-width: 430px;
 }
 
@@ -827,7 +827,7 @@ a.btn.btn-primary.setting-cookies:hover {
 }
 
 .download-app .newsletter-heading h4 {
-    color: #fff;
+    color: #000;
 }
 
 section.newsletter {
