@@ -866,3 +866,7 @@ section.newsletter.download-app {
 }
 
 /* detail styling end */
+.below {
+    padding: 60px 0;
+    text-align: center;
+}
