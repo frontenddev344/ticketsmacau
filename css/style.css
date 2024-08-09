@@ -315,8 +315,17 @@ a.button_main {
 .flex_box.Exhi {
     background: url(../img/exhibition.jpg);
 }
+
 .flex_box.Hotel {
-background: url(../img/hotels.jpg);
+    background: url(../img/hotels.jpg);
+}
+
+.flex_box.Sport {
+    background: url(../img/sports.jpg);
+}
+
+.flex_box.Tour {
+    background: url(../img/tour.jpg);
 }
 
 /* associated styling end */
