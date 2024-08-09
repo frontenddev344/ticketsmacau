@@ -755,5 +755,11 @@ a.btn.btn-primary.setting-cookies:hover {
     text-decoration-color: var(--primary-color);
 }
 
+.event_box {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
 /* 
 /cookie end/ */
