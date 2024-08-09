@@ -312,6 +312,10 @@ a.button_main {
     background-size: cover !important;
 }
 
+.flex_box.Exhi {
+    background: url(../img/exhibition.jpg);
+}
+
 /* associated styling end */
 /* privacy styling start */
 .privacy__ {
