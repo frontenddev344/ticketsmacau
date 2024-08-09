@@ -339,6 +339,12 @@ a.button_main {
     padding: 20px;
 }
 
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* events styling start */
 /* privacy styling start */
 .privacy__ {
