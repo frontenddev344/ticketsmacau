@@ -891,3 +891,92 @@ section.newsletter.download-app {
 }
 
 /* shows styling end */
+/* detail section styling start */
+.thessa-inner img {
+    transition: all .3s linear;
+}
+
+.thessa-inner img:hover {
+    transform: scale(1.1);
+}
+
+.thessa-inner img {
+    width: 140px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.thessa-inner .img_transition {
+    overflow: hidden;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.thessa_main_inner p {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.thessa_main_inner {
+    margin-bottom: 50px;
+}
+
+.thessa_main_inner h2 {
+    color: var(--main-color);
+    padding-bottom: 0;
+    padding-top: 40px;
+}
+
+.thessa_detail {
+    padding: 40px 0;
+
+}
+
+.thessa_detail {
+    padding: 0 0 40px;
+}
+
+.thessa-inner {
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    height: 100%;
+    box-shadow: 1px 1px 5px var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.together {
+    width: 600px;
+}
+
+.thessa_detail .col-12 {
+    margin-bottom: 30px;
+}
+
+.content {
+    display: none;
+}
+
+button.toggle_btn {
+    border: unset;
+    background: none;
+    text-decoration: underline;
+}
+
+.view {
+    margin: 10px 0;
+}
+
+.thessa_main_inner img {
+    width: 160px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.thessa_main_inner {
+    margin: 30px 0 10px;
+}
+
+/* detail section styling end */
