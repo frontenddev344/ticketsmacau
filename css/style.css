@@ -336,7 +336,7 @@ a.button_main {
 
 .row.event_inner {
     background: #ededed;
-    padding: 20px;
+    padding: 0 40px 40px;
 }
 
 .text {
@@ -347,6 +347,13 @@ a.button_main {
 
 .img {
     margin-top: -80px;
+}
+
+.even img {
+    width: 100%;
+    max-width: 90%;
+    margin-top: -60px;
+    border: 8px solid #000;
 }
 
 /* events styling start */
