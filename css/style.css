@@ -333,6 +333,12 @@ a.button_main {
 .events {
     padding: 60px 0;
 }
+
+.row.event_inner {
+    background: #ededed;
+    padding: 20px;
+}
+
 /* events styling start */
 /* privacy styling start */
 .privacy__ {
