@@ -345,6 +345,10 @@ a.button_main {
     justify-content: center;
 }
 
+.img {
+    margin-top: -80px;
+}
+
 /* events styling start */
 /* privacy styling start */
 .privacy__ {
