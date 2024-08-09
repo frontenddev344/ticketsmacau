@@ -315,6 +315,9 @@ a.button_main {
 .flex_box.Exhi {
     background: url(../img/exhibition.jpg);
 }
+.flex_box.Hotel {
+background: url(../img/hotels.jpg);
+}
 
 /* associated styling end */
 /* privacy styling start */
