@@ -763,3 +763,81 @@ a.btn.btn-primary.setting-cookies:hover {
 
 /* 
 /cookie end/ */
+/* email styling start */
+.newsletter-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.newsletter-heading h4 {
+    font-size: 24px;
+    margin: 0 auto 20px;
+    color: var(--main-color);
+    max-width: 430px;
+}
+
+.newsletter-heading p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.news-form input {
+    height: 45px;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: #fafafa;
+}
+
+.news-form button {
+    width: 19%;
+    height: 45px;
+    border: none;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: #fff;
+    font-size: 1rem;
+    transition: all 0.3s linear;
+}
+
+.news-form button:hover {
+    background: transparent;
+    color: var(--primary-color);
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.download-wrap img {
+    max-width: 150px;
+    margin-inline: 20px;
+    margin-top: 20px;
+}
+
+.download-app .newsletter-wrap {
+    max-width: 100%;
+    background: var(--primary-color);
+    box-shadow: none;
+}
+
+.download-app .newsletter-heading h4 {
+    color: #fff;
+}
+
+section.newsletter {
+    background: #fafafa;
+    padding: 50px 0;
+}
+
+section.newsletter.download-app {
+    background: transparent;
+    margin-top: 0;
+}
+
+/* email styling start */
