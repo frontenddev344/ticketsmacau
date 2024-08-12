@@ -999,6 +999,26 @@ section.newsletter.download-app {
 }
 
 /* sports styling end */
+/* blog page styling start */
+.blog_banner {
+    background: url(../img/sportsbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 300px 0;
+    position: relative;
+}
+
+.blog_banner::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0%;
+}
+
+/* blog page styling end */
 /* detail section styling start */
 .thessa-inner img {
     transition: all .3s linear;
