@@ -329,34 +329,6 @@ a.button_main {
 }
 
 /* associated styling end */
-/* events styling start */
-.events {
-    padding: 60px 0;
-}
-
-.row.event_inner {
-    background: #ededed;
-    padding: 0 40px 40px;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.img {
-    margin-top: -80px;
-}
-
-.even img {
-    width: 100%;
-    max-width: 90%;
-    margin-top: -60px;
-    border: 8px solid #000;
-}
-
-/* events styling start */
 /* privacy styling start */
 .privacy__ {
     position: relative;
@@ -476,23 +448,6 @@ a.button_main {
 /* terms styling end */
 /* footer styling */
 
-a,
-a:active,
-a:focus {
-    color: #333;
-    text-decoration: none;
-    transition-timing-function: ease-in-out;
-    -ms-transition-timing-function: ease-in-out;
-    -moz-transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-duration: .2s;
-    -ms-transition-duration: .2s;
-    -moz-transition-duration: .2s;
-    -webkit-transition-duration: .2s;
-    -o-transition-duration: .2s;
-}
-
 .footer {
     background-image: url(../image/footerbg.png);
     background-position: top;
@@ -517,15 +472,6 @@ a:focus {
     text-transform: uppercase;
     font-size: 20px;
 }
-
-/* .single_footer h4::after {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 40px;
-    background: #fff;
-    margin-top: 20px;
-} */
 
 .single_footer p {
     color: var(--secondary-color);
@@ -976,6 +922,26 @@ section.newsletter.download-app {
 }
 
 /* exhibitions styling start */
+/* hotel styling start */
+.hotel_banner {
+    background: url(../img/macauhotel.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 300px 0;
+    position: relative;
+}
+
+.hotel_banner::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0%;
+}
+
+/* hotel styling end */
 /* detail section styling start */
 .thessa-inner img {
     transition: all .3s linear;
