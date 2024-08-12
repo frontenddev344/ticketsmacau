@@ -893,7 +893,7 @@ section.newsletter.download-app {
 
 .detail_img img {
     height: 100%;
-    max-height: 500px;
+    max-height: 450px;
     object-fit: cover;
     width: 100%;
 }
@@ -904,15 +904,10 @@ section.newsletter.download-app {
     align-items: start;
     justify-content: center;
     background: #fff;
-    padding: 20px;
+    padding: 40px;
     margin-left: -100px;
     height: 100%;
     text-align: left;
-}
-
-.detail_box h2 {
-    font-size: 24px;
-    padding: 0;
 }
 
 /* detail styling end */
