@@ -71,15 +71,24 @@
         text-align: center;
     }
 
+    .para_hotel img {
+        max-width: 100%;
+        margin: 0;
+    }
+
     .thessa-inner img {
         width: 100%;
     }
 
-    .banner-text h1 {
-        font-size: 35px;
-
+    .thessa_detail {
+        padding: 20px 0 20px;
     }
-
+    .banner_box h1 {
+        font-size: 4rem;
+    }
+    .home_banner {
+        padding: 220px 0;
+    }
     .single_footer {
         margin-bottom: 50px;
     }
