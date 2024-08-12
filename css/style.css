@@ -185,13 +185,17 @@ header.sticky {
 
 /* navbar stylng end */
 a.button_main {
-    background: var(--main-color);
+    background: var(--primary-color);
     padding: 10px 40px 10px 40px;
-    border: 1px solid var(--main-color);
-    color: #fff;
+    border: 1px solid var(--primary-color);
+    color:var(--main-color);
     font-weight: 500;
 }
-
+a.button_main:hover {
+    background: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
 /* ///// */
 .home_banner {
     background: url(../img/macaubanner.jpg);
