@@ -101,7 +101,7 @@ h2 {
 }
 
 .navlink ul li a:hover {
-    color: var(--main-color);
+    color: #000;
 }
 
 .active {

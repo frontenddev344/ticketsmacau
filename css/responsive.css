@@ -91,10 +91,14 @@
     .home_banner {
         padding: 220px 0;
     }
-    .exhib_banner ,.sports_banner ,.hotel_banner ,.shows_banner {
+
+    .exhib_banner,
+    .sports_banner,
+    .hotel_banner,
+    .shows_banner {
         padding: 200px 0;
     }
-   
+
     .single_footer {
         margin-bottom: 50px;
     }
@@ -107,13 +111,8 @@
         margin-top: 0;
     }
 
-    .contact_section {
-        padding: 40px 0;
-
-    }
-
-    .row.email {
-        gap: 20px;
+    .below_banner .row {
+        row-gap: 20px;
     }
 }
 
