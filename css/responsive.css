@@ -1,20 +1,3 @@
-@media screen and (max-width:1399px) {
-    .text_wrapper {
-        height: 350px !important;
-    }
-
-    .popup-content input {
-
-        width: 100%;
-
-    }
-
-    .popup-content button {
-        width: 100%;
-
-    }
-}
-
 @media screen and (max-width:1200px) {
 
 
@@ -36,7 +19,11 @@
 }
 
 @media (max-width: 991px) {
-    
+    .thessa-inner {
+        display: block;
+        text-align: center;
+    }
+
     .banner-text h1 {
         font-size: 35px;
 

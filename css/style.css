@@ -1013,7 +1013,8 @@ section.newsletter.download-app {
 }
 
 .together {
-    width: 600px;
+    width: 100%;
+    max-width: 870px;
 }
 
 .thessa_detail .col-12 {
