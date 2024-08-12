@@ -1019,6 +1019,37 @@ section.newsletter.download-app {
     top: 0%;
 }
 
+.blog_detail {
+    padding: 60px 0;
+}
+
+.blog_box h2 {
+    font-size: 25px;
+    padding: 0;
+    text-align: left;
+    font-weight: 800;
+}
+
+.blog_box p {
+    margin-bottom: 10px;
+}
+
+.blog_box {
+    background: #ededed;
+    padding: 40px;
+    margin-left: -100px;
+}
+
+
+.blog_img {
+    height: 100%;
+}
+
+.blog_img img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
 /* blog page styling end */
 /* detail section styling start */
 .thessa-inner img {
