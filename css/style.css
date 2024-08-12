@@ -1038,10 +1038,9 @@ section.newsletter.download-app {
 }
 
 .thessa-inner {
-    border: 1px solid var(--primary-color);
     padding: 20px;
     height: 100%;
-    box-shadow: 1px 1px 5px var(--primary-color);
+    box-shadow: 1px 1px 5px #ededed;
     display: flex;
     align-items: center;
     justify-content: space-around;
