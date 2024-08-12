@@ -932,6 +932,10 @@ section.newsletter.download-app {
     text-align: center;
 }
 
+.below_banner {
+    padding: 40px 0;
+}
+
 /* shows styling start */
 .shows_banner {
     background: url(../img/shows.jpg);
@@ -1009,12 +1013,7 @@ section.newsletter.download-app {
 }
 
 .thessa_detail {
-    padding: 40px 0;
-
-}
-
-.thessa_detail {
-    padding: 0 0 40px;
+    padding: 80px 0 40px;
 }
 
 .thessa-inner {
