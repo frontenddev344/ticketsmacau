@@ -83,18 +83,27 @@
     .thessa_detail {
         padding: 20px 0 20px;
     }
+
     .banner_box h1 {
         font-size: 4rem;
     }
+
     .home_banner {
         padding: 220px 0;
     }
+
     .shows_banner {
         padding: 200px 0;
     }
+
+    .hotel_banner {
+        padding: 200px 0;
+    }
+
     .exhib_banner {
         padding: 200px 0;
     }
+
     .single_footer {
         margin-bottom: 50px;
     }
