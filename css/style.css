@@ -667,8 +667,29 @@ a.button_main:hover {
 }
 
 /* footer styling end */
+.events {
+    padding: 60px 0;
+}
 
+.row.event_inner {
+    justify-content: center;
+    align-items: center;
+    background: #ededed;
+    padding: 20px;
+}
 
+.col-lg-5.even {
+    margin: 0;
+    padding: 0;
+}
+
+.even img {
+    margin-top: -70px;
+    border: 2px solid;
+}
+.text a {
+    color:var(--primary-color);
+}
 /* /cookie start/ */
 .cookie-alert {
     position: fixed;
