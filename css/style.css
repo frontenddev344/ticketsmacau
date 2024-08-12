@@ -566,7 +566,7 @@ footer ul.nav-list {
 
 
 .copyright_sec a {
-    color: var(--secondary-color);
+    color: var(--main-color);
     transition: all 0.2s ease 0s;
 }
 
