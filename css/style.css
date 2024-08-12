@@ -687,9 +687,11 @@ a.button_main:hover {
     margin-top: -70px;
     border: 2px solid;
 }
+
 .text a {
-    color:var(--primary-color);
+    color: var(--primary-color);
 }
+
 /* /cookie start/ */
 .cookie-alert {
     position: fixed;
