@@ -95,7 +95,8 @@
     .exhib_banner,
     .sports_banner,
     .hotel_banner,
-    .shows_banner {
+    .shows_banner,
+    .tour_banner {
         padding: 200px 0;
     }
 
