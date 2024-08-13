@@ -58,11 +58,6 @@
         height: 45px;
         line-height: 47px;
     }
-
-    .copyright {
-        margin-top: 20px;
-        padding-top: 10px;
-    }
 }
 
 @media (max-width: 991px) {
@@ -174,6 +169,10 @@
     body.toggle .navlink {
         width: 100%;
 
+    }
+
+    .copyright_sec {
+        display: block;
     }
 
     .navbar .navlink {
