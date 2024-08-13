@@ -937,6 +937,7 @@ section.newsletter.download-app {
 
 .blog_detail {
     padding: 60px 0;
+    background: #efefef;
 }
 
 .blog_box h2 {
@@ -951,11 +952,10 @@ section.newsletter.download-app {
 }
 
 .blog_box {
-    background: #ededed;
+    background: #fff;
     padding: 40px;
     margin-left: -100px;
 }
-
 
 .blog_img {
     height: 100%;
