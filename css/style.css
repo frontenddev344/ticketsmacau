@@ -1163,5 +1163,14 @@ section.affordable {
     background-size: cover;
     background-position: center;
 }
-
+.text_wrapper.blog_second {
+    background: url(../img/celebration.avif);
+    background-size: cover;
+    background-position: center;
+}
+.text_wrapper.blog_three {
+    background: url(../img/celebration.avif);
+    background-size: cover;
+    background-position: center;
+}
 /* affordable styling end */
