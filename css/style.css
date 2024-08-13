@@ -1070,4 +1070,14 @@ button.toggle_btn {
     top: 0%;
 }
 
+.tour_besi {
+    display: block;
+}
+
+.tour_besi h2 {
+    padding: 0;
+    text-align: left;
+    font-size: 28px;
+}
+
 /* tour ending end */
