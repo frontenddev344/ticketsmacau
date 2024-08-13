@@ -184,6 +184,15 @@
 
     }
 
+    .news-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .news-form button {
+        width: 39%;
+    }
+
     .copyright_sec {
         display: block;
     }
