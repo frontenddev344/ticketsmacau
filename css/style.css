@@ -1178,4 +1178,14 @@ section.affordable {
     background-size: cover;
     background-position: center;
 }
+.text_wrapper.blog_five {
+    background: url(../img/tradition.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text_wrapper.blog_six {
+    background: url(../img/local.jpg);
+    background-size: cover;
+    background-position: center;
+}
 /* affordable styling end */
