@@ -125,10 +125,20 @@
         margin: 10px 0 0;
         padding: 0;
     }
+
+    .associated {
+        padding: 40px 0;
+        background: #ededed;
+    }
 }
 
 @media (max-width: 767px) {
-
+    h2 {
+        font-size: 30px;
+    }
+    section.affordable {
+        padding: 20px 0;
+    }
     .footer_logo img {
 
         margin-bottom: 30px;
@@ -143,7 +153,7 @@
     }
 
     .banner_box h1 {
-        font-size: 32px;
+        font-size: 45px;
     }
 
     .banner__text h1 {
