@@ -665,6 +665,7 @@ a.btn.btn-primary.setting-cookies:hover {
 /* accordian styling start */
 .hotel_accordian {
     padding: 80px 0;
+    background: #ededed;
 }
 
 .panel-default>.panel-heading {
