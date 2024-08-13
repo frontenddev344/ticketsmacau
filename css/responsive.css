@@ -120,6 +120,11 @@
     .blog_box {
         margin-left: 0;
     }
+
+    .text {
+        margin: 10px 0 0;
+        padding: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -159,9 +164,11 @@
     .single_footer {
         margin-bottom: 20px;
     }
+
     .below {
         padding: 20px 0;
     }
+
     .blog_detail {
         padding: 20px 0;
     }
