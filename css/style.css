@@ -288,12 +288,16 @@ a.button_main:hover {
     text-align: center;
 }
 
+.flex_cont h3 {
+    color: var(--main-color);
+}
+
 .flex_box:hover h3 {
-    color: #fff;
+    color: var(--main-color);
 }
 
 .flex_box:hover a {
-    color: #fff;
+    color: var(--main-color);
 }
 
 .flex_box:hover::before {
@@ -331,7 +335,7 @@ a.button_main:hover {
 }
 
 .flex_box.Hotel {
-    background: url(../img/hotels.jpg);
+    background: url(../img/hotelbaneer.jpg);
 }
 
 .flex_box.Sport {
@@ -660,6 +664,10 @@ a.btn.btn-primary.setting-cookies:hover {
     gap: 100px;
 }
 
+.event_box h2 {
+    padding: 0;
+}
+
 /* 
 /cookie end/ */
 /* accordian styling start */
@@ -919,7 +927,7 @@ section.newsletter.download-app {
 /* sports styling end */
 /* blog page styling start */
 .blog_banner {
-    background: url(../img/sportsbanner.jpg);
+    background: url(../img/blogbanner.jpg);
     background-size: cover;
     background-position: center;
     padding: 300px 0;
@@ -1164,29 +1172,35 @@ section.affordable {
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.blog_second {
     background: url(../img/celebration.avif);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.blog_three {
     background: url(../img/macauhistroy.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.blog_four {
     background: url(../img/food.webp);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.blog_five {
     background: url(../img/tradition.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .text_wrapper.blog_six {
     background: url(../img/local.jpg);
     background-size: cover;
     background-position: center;
 }
+
 /* affordable styling end */
