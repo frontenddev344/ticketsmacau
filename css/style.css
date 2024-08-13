@@ -1099,12 +1099,23 @@ button.toggle_btn {
     background-position: center center;
 }
 
+.text_wrapper::before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0%;
+}
+
 .text_wrapper h2 {
     transition: 0.5s ease all;
     opacity: 0;
     color: white;
     font-size: 24px;
 }
+
 .text_wrapper:hover {
     transform: translateY(4px);
     cursor: pointer;
@@ -1143,27 +1154,14 @@ section.affordable {
     margin-bottom: 20px;
 }
 
-.text_wrapper.five {
-    height: 720px;
-    background: url(../img/wrapperfive.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    justify-content: center;
-}
-
-.text_wrapper::before {
-    position: absolute;
-    content: '';
-    background: rgba(0, 0, 0, 0.55);
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    top: 0%;
-}
-
 .text_wrapper {
     position: relative;
+}
+
+.text_wrapper.blog_first {
+    background: url(../img/landmark.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 /* affordable styling end */
