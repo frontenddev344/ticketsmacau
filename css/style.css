@@ -1169,7 +1169,12 @@ section.affordable {
     background-position: center;
 }
 .text_wrapper.blog_three {
-    background: url(../img/celebration.avif);
+    background: url(../img/macauhistroy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text_wrapper.blog_four {
+    background: url(../img/food.webp);
     background-size: cover;
     background-position: center;
 }
