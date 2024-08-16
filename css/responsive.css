@@ -282,6 +282,9 @@
     .social_profile ul li {
         margin-right: 10px;
     }
+    a.btn_pri {
+        float: left;
+    }
 }
 
 @media (max-width: 480px) {
