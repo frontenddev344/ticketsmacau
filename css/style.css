@@ -601,6 +601,10 @@ footer ul.nav-list {
     padding: 60px 0 0 0;
 }
 
+.event_box h2 {
+    margin-bottom: 70px;
+}
+
 .row.event_inner {
     justify-content: center;
     align-items: center;
@@ -1253,6 +1257,7 @@ section.affordable {
 /* affordable styling end */
 .products-sec {
     padding: 70px 0;
+    background: #e8e8e8;
 }
 
 .site-heaing h2 {
@@ -1286,14 +1291,11 @@ section.affordable {
 .product-name a {
     color: var(--primary-color);
     text-align: center;
-    font-family: Cinzel;
-    font-size: 22.614px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27.137px;
+    font-size: 24px;
     display: inline-block;
     width: 100%;
     padding: 15px 0;
+    margin-top: 20px;
     border-top: 1px solid var(--primary-color);
 }
 

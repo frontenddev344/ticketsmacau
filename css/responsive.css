@@ -67,6 +67,9 @@
 }
 
 @media (max-width: 991px) {
+    .products-sec {
+        padding: 20px 0;
+    }
     .thessa-inner {
         display: block;
         text-align: center;
