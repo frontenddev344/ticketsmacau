@@ -18,3 +18,11 @@ $(document).ready(function () {
         header.toggleClass("sticky", $(window).scrollTop() > 0);
     });
 });
+
+// slider
+$('.flex_box Exhi').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+});
