@@ -678,7 +678,6 @@ a.btn_pri:hover {
     opacity: 1;
     transform: translateY(0%);
     transition-delay: 1000ms;
-    max-width: 400px;
 }
 
 p.card-text {
@@ -695,7 +694,7 @@ a.btn.btn-primary.setting-cookies {
 }
 
 .btn-toolbar {
-    justify-content: space-between;
+   gap: 10px;
 }
 
 a.btn.btn-primary.setting-cookies:hover {
@@ -705,6 +704,8 @@ a.btn.btn-primary.setting-cookies:hover {
 }
 
 /* 
+
+
 /cookie end/ */
 /* accordian styling start */
 .hotel_accordian {
