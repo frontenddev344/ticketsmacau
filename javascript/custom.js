@@ -49,29 +49,33 @@ $(document).ready(function () {
     "use strict";
     var cookieAlert = document.querySelector(".cookie-alert");
     var acceptCookies = document.querySelector(".accept-cookies");
+    var rejectCookies = document.querySelector(".reject-cookies");
+
     cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+
     if (!getCookie("acceptCookies")) {
         cookieAlert.classList.add("show");
-
     }
+
     acceptCookies.addEventListener("click", function () {
         setCookie("acceptCookies", true, 60);
+        cookieAlert.classList.remove("show");
+    });
+
+    rejectCookies.addEventListener("click", function () {
+        // Hide the cookie alert without setting a cookie
         cookieAlert.classList.remove("show");
     });
 })();
 
 // Cookie functions stolen from w3schools
 function setCookie(cname, cvalue, exdays) {
-
     var d = new Date();
-
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-
     var expires = "expires=" + d.toUTCString();
-
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-
 }
+
 function getCookie(cname) {
     var name = cname + "=";
     var decodedCookie = decodeURIComponent(document.cookie);
