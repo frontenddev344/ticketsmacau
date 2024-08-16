@@ -1017,6 +1017,9 @@ section.newsletter.download-app {
     height: 200px;
     margin-bottom: 10px;
 }
+.thessa-inner.hotel_inner  .img_transition {
+    width: 100%;
+}
 
 .thessa_main_inner p {
     text-align: center;
