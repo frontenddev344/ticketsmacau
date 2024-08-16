@@ -64,6 +64,10 @@
         height: 45px;
         line-height: 47px;
     }
+
+    .thessa_detail {
+        padding: 20px 0 40px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -80,9 +84,11 @@
         max-width: 100%;
         text-align: left;
     }
+
     .hotel_btn {
         text-align: left;
     }
+
     .thessa-inner.hotel_inner {
         text-align: left;
     }
@@ -285,8 +291,13 @@
     .social_profile ul li {
         margin-right: 10px;
     }
+
     a.btn_pri {
         float: left;
+    }
+
+    .panel-default>.panel-heading a {
+        font-size: 18px;
     }
 }
 
