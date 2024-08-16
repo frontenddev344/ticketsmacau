@@ -457,18 +457,31 @@
                 slidesToScroll: 1,
                 arrows: false,
                 dots: true,
-                autoplay: true, 
+                autoplay: false,
                 autoplaySpeed: 1000,
                 responsive: [
                     {
-                        breakpoint: 767,
+                        breakpoint: 1200,
                         settings: {
-                            slidesToShow: 1,
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
                             arrows: false,
                             dots: true,
-                            slidesToScroll: 1
+                            autoplay: true,
+                            autoplaySpeed: 3000
                         }
-                    }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            arrows: false,
+                            dots: true,
+                            autoplay: true,
+                            autoplaySpeed: 3000
+                        }
+                    },
                 ]
             });
         });
