@@ -534,6 +534,7 @@ footer li a {
     padding-top: 0;
     justify-content: center;
     list-style: none;
+    gap: 20px;
 }
 
 /*START SOCIAL PROFILE CSS*/
@@ -549,7 +550,6 @@ footer li a {
 
 .social_profile ul li {
     float: left;
-    margin-right: 10px !important;
 }
 
 .social_profile ul li a {

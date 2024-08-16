@@ -278,7 +278,12 @@
         width: calc(50% / 2 - 10px);
         font-size: 13px;
     }
+
+    .social_profile ul li {
+        margin-right: 10px;
+    }
 }
+
 @media (max-width: 480px) {
     .info p {
         font-size: 12px;
