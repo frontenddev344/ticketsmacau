@@ -275,7 +275,10 @@ a.button_main:hover {
 .flex_box.Shows {
     background: url(../img/show.jpg);
 }
-
+.flex_box {
+    max-width: 450px;
+    margin: 0 auto;
+}
 .flex_cont a {
     color: #000;
     display: flex;
@@ -1017,7 +1020,8 @@ section.newsletter.download-app {
     height: 200px;
     margin-bottom: 10px;
 }
-.thessa-inner.hotel_inner  .img_transition {
+
+.thessa-inner.hotel_inner .img_transition {
     width: 100%;
 }
 
@@ -1245,3 +1249,95 @@ section.affordable {
 }
 
 /* affordable styling end */
+.products-sec {
+    padding: 70px 0;
+}
+
+.site-heaing h2 {
+    color: #000;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.product-img {
+    max-width: 169.604px;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    transition: all 0.3s linear;
+
+}
+
+.product-img:hover img {
+    transform: scale(1.1);
+}
+
+.product-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s linear;
+}
+
+.product-txt p {
+    color: #000;
+    text-align: center;
+    font-family: Cinzel;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.614px;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.product-name a {
+    color: #F29029;
+    text-align: center;
+    font-family: Cinzel;
+    font-size: 22.614px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.137px;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    border-top: 1px solid #F29029;
+}
+
+.product-wrap {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+section.products-sec .row {
+    padding: 50px 0;
+}
+
+.catalog-btn a {
+    width: 100%;
+    max-width: 450px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F29029;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #F29029;
+    transition: all 0.3s linear;
+
+}
+
+.catalog-btn a:hover {
+    background-color: transparent;
+    color: #f29029;
+}

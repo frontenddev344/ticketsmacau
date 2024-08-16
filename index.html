@@ -88,6 +88,87 @@
     <!-- below section end -->
 
     <!-- associated section start -->
+    <section class="products-sec">
+        <div class="container">
+            <!-- <div class="site-heaing">
+                <h2>
+                    Products
+                </h2>
+            </div> -->
+            <div class="promotions-carousel row">
+                <div class="columns large-4">
+                    <div class="product-wrap">
+                        <div class="product-img">
+                            <img src="img/show.jpg" alt="">
+                        </div>
+                        <div class="product-txt">
+                            <div class="product-name">
+                                <a href="shows.html">
+                                    Shows
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns large-4">
+                    <div class="product-wrap">
+                        <div class="product-img">
+                            <img src="img/exhibition.jpg" alt="">
+                        </div>
+                        <div class="product-txt">
+                            <div class="product-name">
+                                <a href="exhibitions.html">
+                                    Exhibitions
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns large-4">
+                    <div class="product-wrap">
+                        <div class="product-img">
+                            <img src="img/hotelbaneer.jpg" alt="">
+                        </div>
+                        <div class="product-txt">
+                            <div class="product-name">
+                                <a href="hotel.html">
+                                    Hotels
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns large-4">
+                    <div class="product-wrap">
+                        <div class="product-img">
+                            <img src="img/sports.jpg" alt="">
+                        </div>
+                        <div class="product-txt">
+                            <div class="product-name">
+                                <a href="sport.html">
+                                    Sports
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns large-4">
+                    <div class="product-wrap">
+                        <div class="product-img">
+                            <img src="img/tour.jpg" alt="">
+                        </div>
+                        <div class="product-txt">
+                            <div class="product-name">
+                                <a href="tour.html">
+                                    Tours
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="associated">
         <div class="container">
             <div class="row">
@@ -418,6 +499,26 @@
             }
             return "";
         }</script>
+    <script>
+        $(document).ready(function () {
+            $(".promotions-carousel").slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1,
+                            arrows: false,
+                            dots: true,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
 </body>
 
 </html>
