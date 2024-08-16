@@ -1293,7 +1293,7 @@ section.affordable {
 }
 
 .product-name a {
-    color: #F29029;
+    color: var(--primary-color);
     text-align: center;
     font-family: Cinzel;
     font-size: 22.614px;
@@ -1303,7 +1303,7 @@ section.affordable {
     display: inline-block;
     width: 100%;
     padding: 15px 0;
-    border-top: 1px solid #F29029;
+    border-top: 1px solid  var(--primary-color);
 }
 
 .product-wrap {
