@@ -669,6 +669,11 @@ a.btn_pri:hover {
     opacity: 1;
     transform: translateY(0%);
     transition-delay: 1000ms;
+    max-width: 400px;
+}
+
+p.card-text {
+    margin-bottom: 20px;
 }
 
 a.btn.btn-primary.setting-cookies {
