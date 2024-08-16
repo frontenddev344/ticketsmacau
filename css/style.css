@@ -1052,8 +1052,24 @@ section.newsletter.download-app {
     max-width: 870px;
 }
 
+.together ul li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
 .thessa_detail .col-12 {
     margin-bottom: 30px;
+}
+
+.thessa-inner.hotel_inner {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.thessa-inner.hotel_inner img {
+    width: 100%;
+    height: unset;
 }
 
 .content {
