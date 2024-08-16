@@ -687,15 +687,21 @@ p.card-text {
 
 a.btn.btn-primary.setting-cookies {
     background: var(--primary-color);
+    border-color: var(--primary-color);
     color: var(--main-color);
     padding-bottom: 0;
     margin-right: 14px;
-    border: none;
+
+}
+
+.btn-toolbar {
+    justify-content: space-between;
 }
 
 a.btn.btn-primary.setting-cookies:hover {
-    color: var(--main-color);
-    text-decoration-color: var(--main-color);
+    color: var(--primary-color);
+    background-color: var(--main-color);
+    border-color: var(--primary-color);
 }
 
 /* 
