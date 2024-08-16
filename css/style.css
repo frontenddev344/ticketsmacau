@@ -387,6 +387,14 @@ a.button_main:hover {
     padding: 40px 0;
 }
 
+section.privacy-policy p {
+    margin-bottom: 8px;
+}
+
+section.terms_conditons p {
+    margin-bottom: 8px;
+}
+
 .privacy-policy a {
     color: #000;
     font-weight: 700;
@@ -694,7 +702,7 @@ a.btn.btn-primary.setting-cookies {
 }
 
 .btn-toolbar {
-   gap: 10px;
+    gap: 10px;
 }
 
 a.btn.btn-primary.setting-cookies:hover {
