@@ -166,13 +166,8 @@
         padding: 0;
     }
 
-    .info p {
-        font-size: 14px;
-    }
-
-    .button {
-        width: calc(55% / 2 - 10px);
-        font-size: 14px;
+    a.btn_pri {
+        float: left;
     }
 }
 
@@ -229,18 +224,6 @@
         padding: 20px 0;
     }
 
-    .wrapper {
-        padding: 20px 10px;
-    }
-
-    .info p {
-        font-size: 13px;
-    }
-
-    .button {
-        font-size: 13px;
-        padding: 6px;
-    }
 
 }
 
@@ -279,39 +262,14 @@
         display: inline-block;
     }
 
-    .info p {
-        font-size: 13px;
-    }
-
-    .button {
-        width: calc(50% / 2 - 10px);
-        font-size: 13px;
-    }
 
     .social_profile ul li {
         margin-right: 10px;
     }
 
-    a.btn_pri {
-        float: left;
-    }
+   
 
     .panel-default>.panel-heading a {
         font-size: 18px;
-    }
-}
-
-@media (max-width: 480px) {
-    .info p {
-        font-size: 12px;
-    }
-
-    .buttons {
-        gap: 10px;
-    }
-
-    .button {
-        width: calc(80% / 2 - 10px);
-        font-size: 13px;
     }
 }
