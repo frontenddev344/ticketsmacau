@@ -1,3 +1,9 @@
+@media screen and (max-width:1280px) {
+    .together {
+        max-width: 550px;
+    }
+}
+
 @media screen and (max-width:1200px) {
 
     .open {
@@ -64,6 +70,10 @@
     .thessa-inner {
         display: block;
         text-align: center;
+    }
+
+    .together {
+        max-width: 100%;
     }
 
     .thessa-inner.hotel_inner {
