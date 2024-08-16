@@ -601,6 +601,7 @@ footer ul.nav-list {
     align-items: center;
     background: #ededed;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 .col-lg-5.even {
@@ -621,6 +622,15 @@ footer ul.nav-list {
 
 .text a {
     color: var(--primary-color);
+}
+
+a.btn_pri {
+    padding: 10px 15px;
+    background: var(--primary-color);
+    color: var(--main-color);
+    margin: 40px 0;
+    display: inline-block;
+    float: right;
 }
 
 /* /cookie start/ */
