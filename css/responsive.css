@@ -70,6 +70,7 @@
     .products-sec {
         padding: 20px 0;
     }
+
     .thessa-inner {
         display: block;
         text-align: center;
@@ -146,6 +147,9 @@
     .associated {
         padding: 40px 0;
         background: #ededed;
+    }
+    .hotel_accordian {
+        padding: 20px 0;
     }
 }
 
@@ -234,4 +238,7 @@
         width: 90px;
     }
 
+    .footer_inner ul {
+        display: inline-block;
+    }
 }
