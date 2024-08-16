@@ -698,6 +698,7 @@ a.btn.btn-primary.setting-cookies:hover {
     background: var(--primary-color);
     color: #fff;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 .panel-body {
