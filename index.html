@@ -391,16 +391,17 @@
     </footer>
     <!-- footer end-->
     <!-- cookies start -->
-    <div class="card cookie-alert show">
-        <div class="card-body p-5">
-
-            <p class="card-text">We use cookies to enhance your browsing experience and provide personalized content. By
+    <div class="wrapper show">
+        <div class="info">
+            <p>
+                We use cookies to enhance your browsing experience and provide personalized content. By
                 continuing to browse the site, you agree to our use of cookies. For more information, please
-                read our Privacy Policy.</p>
-            <div class="btn-toolbar">
-                <a href="#" class="btn btn-primary accept-cookies">Accept Cookies</a>
-                <a href="#" class="btn btn-primary setting-cookies">Reject Cookies</a>
-            </div>
+                read our Privacy Policy.
+            </p>
+        </div>
+        <div class="buttons">
+            <button class="button" id="acceptBtn">Accept Cookies</button>
+            <button class="button">Reject Cookies</button>
         </div>
     </div>
     <!-- cookies end -->
@@ -409,46 +410,30 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="javascript/custom.js"></script>
     <script>
-        (function () {
-            "use strict";
+        const cookiesBox = document.querySelector('.wrapper'),
+            buttons = document.querySelectorAll('.button');
 
-            var cookieAlert = document.querySelector(".cookie-alert");
-            var acceptCookies = document.querySelector(".accept-cookies");
+        // ---- ---- Show ---- ---- //
+        const executeCodes = () => {
+            if (document.cookie.includes('AlexGolovanov')) return;
+            cookiesBox.classList.add('show');
 
-            cookieAlert.offsetHeight;
+            // ---- ---- Button ---- ---- //
+            buttons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    cookiesBox.classList.remove('show');
 
-            if (!getCookie("acceptCookies")) {
-                cookieAlert.classList.add("show");
-            }
-
-            acceptCookies.addEventListener("click", function () {
-                setCookie("acceptCookies", true, 60);
-                cookieAlert.classList.remove("show");
+                    // ---- ---- Time ---- ---- //
+                    if (button.id == 'acceptBtn') {
+                        document.cookie =
+                            'cookieBy= AlexGolovanov; max-age=' + 60 * 60 * 24 * 30;
+                    }
+                });
             });
-        })();
+        };
 
-        function setCookie(cname, cvalue, exdays) {
-            var d = new Date();
-            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-            var expires = "expires=" + d.toUTCString();
-            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-        }
+        window.addEventListener('load', executeCodes);
 
-        function getCookie(cname) {
-            var name = cname + "=";
-            var decodedCookie = decodeURIComponent(document.cookie);
-            var ca = decodedCookie.split(';');
-            for (var i = 0; i < ca.length; i++) {
-                var c = ca[i];
-                while (c.charAt(0) === ' ') {
-                    c = c.substring(1);
-                }
-                if (c.indexOf(name) === 0) {
-                    return c.substring(name.length, c.length);
-                }
-            }
-            return "";
-        }
     </script>
     <script>
         $(document).ready(function () {
