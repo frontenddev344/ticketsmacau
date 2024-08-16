@@ -527,10 +527,6 @@ footer li a {
     text-decoration: underline;
 }
 
-.footer_inner ul li:not(:last-child) {
-    margin-right: 22px;
-}
-
 .footer_inner ul {
     display: flex;
     align-items: center;
