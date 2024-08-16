@@ -686,17 +686,16 @@ p.card-text {
 }
 
 a.btn.btn-primary.setting-cookies {
-    background: transparent;
-    color: #000;
-    text-decoration: underline;
+    background: var(--primary-color);
+    color: var(--main-color);
     padding-bottom: 0;
     margin-right: 14px;
     border: none;
 }
 
 a.btn.btn-primary.setting-cookies:hover {
-    color: var(--primary-color);
-    text-decoration-color: var(--primary-color);
+    color: var(--main-color);
+    text-decoration-color: var(--main-color);
 }
 
 /* 
