@@ -611,6 +611,12 @@ footer ul.nav-list {
 .even img {
     margin-top: -70px;
     border: 2px solid;
+    filter: grayscale(0) blur(0);
+    transition: .3s ease-in-out;
+}
+
+.even img:hover {
+    filter: grayscale(70%) blur(1px);
 }
 
 .text a {
