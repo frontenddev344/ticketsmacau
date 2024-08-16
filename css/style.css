@@ -237,6 +237,11 @@ a.button_main:hover {
     margin: -80px 0;
     position: relative;
     border: 10px solid #fafafa;
+    transition: all 0.3s linear;
+}
+
+.para_hotel img:hover {
+    filter: grayscale(1);
 }
 
 .para_hotel {
