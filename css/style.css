@@ -1074,6 +1074,10 @@ section.newsletter.download-app {
     max-width: 870px;
 }
 
+.together p {
+    margin-bottom: 10px;
+}
+
 .together ul li {
     list-style: disc;
     margin-left: 20px;

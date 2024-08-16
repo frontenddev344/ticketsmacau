@@ -78,8 +78,11 @@
 
     .together {
         max-width: 100%;
+        text-align: left;
     }
-
+    .hotel_btn {
+        text-align: left;
+    }
     .thessa-inner.hotel_inner {
         text-align: left;
     }
