@@ -1000,9 +1000,6 @@ section.newsletter.download-app {
 
 /* blog page styling end */
 /* detail section styling start */
-.thessa-inner img {
-    transition: all .3s linear;
-}
 
 .thessa-inner img:hover {
     transform: scale(1.1);
@@ -1012,6 +1009,7 @@ section.newsletter.download-app {
     width: 140px;
     height: 200px;
     object-fit: cover;
+    transition: all .3s linear;
 }
 
 .thessa-inner .img_transition {
@@ -1046,6 +1044,7 @@ section.newsletter.download-app {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 10px;
 }
 
 .together {
