@@ -149,7 +149,10 @@
         background: #ededed;
     }
     .hotel_accordian {
-        padding: 20px 0;
+        padding: 40px 0;
+    }
+    .hotel_accordian h2 {
+        padding: 0;
     }
 }
 
