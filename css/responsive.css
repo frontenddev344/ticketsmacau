@@ -148,11 +148,22 @@
         padding: 40px 0;
         background: #ededed;
     }
+
     .hotel_accordian {
         padding: 40px 0;
     }
+
     .hotel_accordian h2 {
         padding: 0;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+
+    .button {
+        width: calc(55% / 2 - 10px);
+        font-size: 14px;
     }
 }
 
@@ -208,6 +219,20 @@
     .blog_detail {
         padding: 20px 0;
     }
+
+    .wrapper {
+        padding: 20px 10px;
+    }
+
+    .info p {
+        font-size: 13px;
+    }
+
+    .button {
+        font-size: 13px;
+        padding: 6px;
+    }
+
 }
 
 @media (max-width: 575px) {
@@ -243,5 +268,14 @@
 
     .footer_inner ul {
         display: inline-block;
+    }
+
+    .info p {
+        font-size: 13px;
+    }
+
+    .button {
+        width: calc(50% / 2 - 10px);
+        font-size: 13px;
     }
 }
