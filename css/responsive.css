@@ -279,3 +279,17 @@
         font-size: 13px;
     }
 }
+@media (max-width: 480px) {
+    .info p {
+        font-size: 12px;
+    }
+
+    .buttons {
+        gap: 10px;
+    }
+
+    .button {
+        width: calc(80% / 2 - 10px);
+        font-size: 13px;
+    }
+}
