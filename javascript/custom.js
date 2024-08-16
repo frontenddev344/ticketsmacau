@@ -9,9 +9,6 @@ $(document).ready(function () {
     });
 });
 
-AOS.init({
-    duration: 1200,
-})
 $(document).ready(function () {
     $(window).scroll(function () {
         var header = $("header");
