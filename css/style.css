@@ -654,54 +654,50 @@ a.btn_pri:hover {
 
 /* /cookie start/ */
 /* Cookies CSS Start */
-.wrapper {
+/* /cookie start/ */
+.cookie-alert {
     position: fixed;
-    bottom: -100%;
-    width: 100%;
-    background-color: #0b8d93;
-    padding: 15px 25px 22px;
-    transition: all 1s ease-in-out;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.wrapper.show {
     bottom: 0;
-}
-
-.info {
-    margin-bottom: 15px;
-}
-
-.info p {
-    font-size: 15px;
-    color: #fff;
-    font-weight: 400;
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    right: 0;
     width: 100%;
-    gap: 10px;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+    left: 0;
 }
 
-.button {
-    width: calc(30% / 2 - 10px);
-    padding: 8px 0;
-    border: none;
-    border-radius: 4px;
-    background-color: #FFF;
-    color: #0b8d93;
-    cursor: pointer;
-    transition: all 0.7s ease;
-    font-weight: 600;
-    border: 1px solid #fff;
-}
-
-.button:hover {
-    background-color: #0b8d93;
+.cookie-alert .btn {
     color: #fff;
+    background-color: var(--primary-color);
+    border-color: #ffffff;
+}
+
+.cookie-alert .btn:hover {
+    color: var(--primary-color);
+    background-color: #fff;
+    border-color: var(--primary-color);
+}
+
+.cookie-alert.show {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+}
+
+a.btn.btn-primary.setting-cookies {
+    background: transparent;
+    color: #000;
+    text-decoration: underline;
+    padding-bottom: 0;
+    margin-right: 14px;
+    border: none;
+}
+
+a.btn.btn-primary.setting-cookies:hover {
+    color: var(--primary-color);
+    text-decoration-color: var(--primary-color);
 }
 
 /* Cookies CSS End */

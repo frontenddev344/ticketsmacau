@@ -45,27 +45,45 @@ $(document).ready(function () {
 });
 
 // cookies
-const cookiesBox = document.querySelector('.wrapper'),
-    buttons = document.querySelectorAll('.button');
+(function () {
+    "use strict";
+    var cookieAlert = document.querySelector(".cookie-alert");
+    var acceptCookies = document.querySelector(".accept-cookies");
+    cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+    if (!getCookie("acceptCookies")) {
+        cookieAlert.classList.add("show");
 
-// ---- ---- Show ---- ---- //
-const executeCodes = () => {
-    if (document.cookie.includes('AlexGolovanov')) return;
-    cookiesBox.classList.add('show');
-
-    // ---- ---- Button ---- ---- //
-    buttons.forEach((button) => {
-        button.addEventListener('click', () => {
-            cookiesBox.classList.remove('show');
-
-            // ---- ---- Time ---- ---- //
-            if (button.id == 'acceptBtn') {
-                document.cookie =
-                    'cookieBy= AlexGolovanov; max-age=' + 60 * 60 * 24 * 30;
-            }
-        });
+    }
+    acceptCookies.addEventListener("click", function () {
+        setCookie("acceptCookies", true, 60);
+        cookieAlert.classList.remove("show");
     });
-};
+})();
 
-window.addEventListener('load', executeCodes);
+// Cookie functions stolen from w3schools
+function setCookie(cname, cvalue, exdays) {
 
+    var d = new Date();
+
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+
+    var expires = "expires=" + d.toUTCString();
+
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+
+}
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) === ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) === 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
