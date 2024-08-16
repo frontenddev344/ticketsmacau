@@ -593,7 +593,7 @@ footer ul.nav-list {
 /* footer end */
 /* footer styling end */
 .events {
-    padding: 60px 0;
+    padding: 60px 0 0 0;
 }
 
 .row.event_inner {
@@ -631,6 +631,12 @@ a.btn_pri {
     margin: 40px 0;
     display: inline-block;
     float: right;
+    transition: all 0.3s linear;
+}
+
+a.btn_pri:hover {
+    background: transparent;
+    color: var(--primary-color);
 }
 
 /* /cookie start/ */
